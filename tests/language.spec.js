@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 // / <reference types="cypress" />
 test.beforeEach(async ({ page }) => {
   await page.setViewportSize({ width: 1920, height: 1020 });
-  await page.goto('https://zt.com.ua/');
+  await page.goto('/');
 });
 
 test('language UA', async ({ page }) => {
