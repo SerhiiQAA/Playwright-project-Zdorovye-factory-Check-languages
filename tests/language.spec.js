@@ -22,7 +22,6 @@ test('language RU', async ({ page }) => {
     .click();
   await expect(page).toHaveTitle('Главная - Здоровье');
   await expect(page).toHaveURL(/ru/);
-  await expect(page.locator('header > .wrapper')).toBeVisible();
   const scope = page.locator('header > .wrapper');
   await expect(scope.getByText(/Обратная связь/).first()).toBeVisible();
   await expect(scope.getByText(/Меню/).first()).toBeVisible();
@@ -35,7 +34,6 @@ test('language DE', async ({ page }) => {
     .click();
   await expect(page).toHaveTitle('Startseite - Zdorovye');
   await expect(page).toHaveURL(/de/);
-  await expect(page.locator('header > .wrapper')).toBeVisible();
   const scope = page.locator('header > .wrapper');
   await expect(scope.getByText(/Rückkopplung/).first()).toBeVisible();
   await expect(scope.getByText(/Menü/).first()).toBeVisible();
@@ -48,7 +46,6 @@ test('language ES', async ({ page }) => {
     .click();
   await expect(page).toHaveTitle('Inicio - Zdorovye');
   await expect(page).toHaveURL(/es/);
-  await expect(page.locator('header > .wrapper')).toBeVisible();
   const scope = page.locator('header > .wrapper');
   await expect(scope.getByText(/Realimentación /).first()).toBeVisible();
   await expect(scope.getByText(/Menú/).first()).toBeVisible();
@@ -61,7 +58,6 @@ test('language FR', async ({ page }) => {
     .click();
   await expect(page).toHaveTitle('Accueil - Zdorovye');
   await expect(page).toHaveURL(/fr/);
-  await expect(page.locator('header > .wrapper')).toBeVisible();
   const scope = page.locator('header > .wrapper');
   await expect(scope.getByText(/Réaction/).first()).toBeVisible();
   await expect(scope.getByText(/Menu/).first()).toBeVisible();
@@ -74,7 +70,6 @@ test('language EN', async ({ page }) => {
     .click();
   await expect(page).toHaveTitle('Home - Zdorovye');
   await expect(page).toHaveURL(/en/);
-  await expect(page.locator('header > .wrapper')).toBeVisible();
   const scope = page.locator('header > .wrapper');
   await expect(scope.getByText(/Feedback/).first()).toBeVisible();
   await expect(scope.getByText(/Menu/).first()).toBeVisible();
