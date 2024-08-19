@@ -12,7 +12,7 @@ test('language UA', async ({ page }) => {
   await expect(page.locator('header > .wrapper')).toBeVisible();
   const scope = page.locator('header > .wrapper');
   await expect(scope.getByText(/Зворотній зв'язок/).first()).toBeVisible();
-  await expect(scope.getByText(/Меню/).first()).toBeVisible();
+  await expect(scope.getByText(/Ме ню/).first()).toBeVisible();
 });
 
 test('language RU', async ({ page }) => {
