@@ -2,5 +2,5 @@
 ## The company has a certificate of compliance with the requirements of the Good Manufacturing Practice of the European Union.
 ![Alt text](Images/Zdorovye.png)
 ___
-## Test Report:
+## Test Report (example):
 ![Alt text](Images/Playwright_Test_Report.png)
