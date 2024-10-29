@@ -2,4 +2,4 @@ Pharmaceutical company «Zdorovye» - the flagship of the domestic pharmaceutica
 The company has a certificate of compliance with the requirements of the Good Manufacturing Practice of the European Union.
 ![Alt text](Images/Zdorovye.png)
 
-![Alt text](Images/Screenshot 2024-08-18 at 18-18-58 Playwright Test Report.png)
+![Alt text](Images/Playwright_Test_Report.png)
